@@ -1,11 +1,23 @@
 module.exports = {
-  "rules": {
-    "eqeqeq": [
+  parser: "babel-eslint",
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: "module",
+  },
+  plugins: ["prettier"],
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+  },
+  rules: {
+    "prettier/prettier": "error",
+    eqeqeq: [
       "error",
       "always",
       {
-        "null": "never"
-      }
+        null: "never",
+      },
     ],
     "no-else-return": "error",
     "no-useless-escape": "error",
@@ -15,15 +27,15 @@ module.exports = {
     "no-unused-vars": [
       "error",
       {
-        "vars": "all",
-        "args": "none"
-      }
+        vars: "all",
+        args: "none",
+      },
     ],
     "handle-callback-err": "error",
     "no-path-concat": "error",
     "no-var": "error",
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
-    "prefer-template": "error"
-  }
-}
+    "prefer-template": "error",
+  },
+};

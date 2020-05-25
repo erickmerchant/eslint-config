@@ -12,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/erickmerchant/eslint-config/issues"
   },
-  "homepage": "https://github.com/erickmerchant/eslint-config#readme"
+  "homepage": "https://github.com/erickmerchant/eslint-config#readme",
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "eslint-plugin-prettier": "^3.1.3"
+  }
 }
