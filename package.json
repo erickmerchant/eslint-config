@@ -1,0 +1,16 @@
+{
+  "name": "@erickmerchant/eslint-config",
+  "version": "1.0.0",
+  "description": "my eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmerchant/eslint-config.git"
+  },
+  "author": "Erick Merchant <erickmerchant@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickmerchant/eslint-config/issues"
+  },
+  "homepage": "https://github.com/erickmerchant/eslint-config#readme"
+}
