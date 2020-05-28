@@ -13,9 +13,6 @@
     "url": "https://github.com/erickmerchant/eslint-config/issues"
   },
   "homepage": "https://github.com/erickmerchant/eslint-config#readme",
-  "scripts": {
-    "test": "node test.js"
-  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.1.0",
