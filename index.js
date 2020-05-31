@@ -31,7 +31,7 @@ module.exports = {
         null: 'never'
       }
     ],
-    'no-mixed-operators': 'error',
+    // 'no-mixed-operators': 'error',
 
     // numbers
     'no-floating-decimal': 'error',
