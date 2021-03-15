@@ -70,7 +70,6 @@ module.exports = {
     'no-throw-literal': 'error',
 
     // promises
-    'no-await-in-loop': 'error',
     'prefer-promise-reject-errors': 'error',
 
     // vars
