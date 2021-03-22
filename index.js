@@ -6,7 +6,7 @@ module.exports = {
     sourceType: 'module',
     requireConfigFile: false
   },
-  plugins: ['prettier'],
+  plugins: ['prettier', 'simple-import-sort'],
   env: {
     browser: true,
     node: true,
@@ -18,6 +18,7 @@ module.exports = {
     // imports and exports
     'no-duplicate-imports': 'error',
     'no-useless-rename': 'error',
+    "simple-import-sort/imports": "error",
 
     // control
     'default-case-last': 'error',
