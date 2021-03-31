@@ -4,7 +4,10 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
-    requireConfigFile: false
+    requireConfigFile: false,
+    babelOptions: {
+      plugins: ['@babel/plugin-syntax-top-level-await']
+    }
   },
   plugins: ['prettier', 'simple-import-sort'],
   env: {
@@ -18,7 +21,7 @@ module.exports = {
     // imports and exports
     'no-duplicate-imports': 'error',
     'no-useless-rename': 'error',
-    "simple-import-sort/imports": "error",
+    'simple-import-sort/imports': 'error',
 
     // control
     'default-case-last': 'error',
