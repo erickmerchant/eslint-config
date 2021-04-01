@@ -1,0 +1,84 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "requireConfigFile": false,
+    "babelOptions": {
+      "plugins": [
+        "@babel/plugin-syntax-top-level-await"
+      ]
+    }
+  },
+  "plugins": [
+    "prettier",
+    "simple-import-sort"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-duplicate-imports": "error",
+    "no-useless-rename": "error",
+    "simple-import-sort/imports": "error",
+    "default-case-last": "error",
+    "no-else-return": "error",
+    "no-lonely-if": "error",
+    "eqeqeq": [
+      "error",
+      "always",
+      {
+        "null": "never"
+      }
+    ],
+    "no-floating-decimal": "error",
+    "no-loss-of-precision": "error",
+    "radix": "error",
+    "no-multi-str": "error",
+    "no-octal-escape": "error",
+    "no-template-curly-in-string": "error",
+    "no-useless-concat": "error",
+    "prefer-template": "error",
+    "no-useless-backreference": "error",
+    "prefer-regex-literals": "error",
+    "array-callback-return": "error",
+    "no-array-constructor": "error",
+    "no-loop-func": "error",
+    "prefer-arrow-callback": "error",
+    "default-param-last": "error",
+    "no-return-assign": "error",
+    "no-return-await": "error",
+    "no-useless-return": "error",
+    "no-throw-literal": "error",
+    "prefer-promise-reject-errors": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "none"
+      }
+    ],
+    "require-atomic-updates": "error",
+    "symbol-description": "error",
+    "no-caller": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-extra-bind": "error",
+    "no-implied-eval": "error",
+    "no-new-func": "error",
+    "no-new-wrappers": "error",
+    "no-proto": "error",
+    "no-script-url": "error",
+    "no-sequences": "error",
+    "no-useless-call": "error",
+    "no-void": "error",
+    "handle-callback-err": "error",
+    "no-path-concat": "error"
+  }
+}
