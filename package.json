@@ -17,7 +17,7 @@
     "@babel/core": "^7.12.7",
     "@babel/eslint-parser": "^7.12.1",
     "@babel/plugin-syntax-top-level-await": "^7.12.13",
-    "eslint": "^7.14.0",
+    "eslint": "^8.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0"
   }
